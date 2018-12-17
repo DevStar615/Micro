@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BalooBhai-Regular.ttf">
+            <string>BalooBhai-Regular</string>
+        </array>
+        <array key="VarelaRound-Regular.ttf">
+            <string>VarelaRound-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermsNConditionVC" customModule="Pump_Manage" customModuleProvider="target">
+            <connections>
+                <outlet property="btnNext" destination="4C5-3P-Xbx" id="buc-Mf-1jZ"/>
+                <outlet property="btnSkip" destination="I1c-V7-43D" id="cYH-45-bJ0"/>
+                <outlet property="imgbackground" destination="vbl-zy-6l8" id="3cj-eh-QvW"/>
+                <outlet property="pageController" destination="iWl-gl-arX" id="d5k-7b-yws"/>
+                <outlet property="view" destination="bNR-5e-4hQ" id="Yzg-X3-Uqi"/>
+            </connections>
+        </placeholder>
+        <view contentMode="scaleToFill" id="bNR-5e-4hQ">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="vbl-zy-6l8">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pump" translatesAutoresizingMaskIntoConstraints="NO" id="zRd-lo-8d6">
+                    <rect key="frame" x="120" y="40" width="135" height="132.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="zRd-lo-8d6" secondAttribute="height" multiplier="167:181" constant="12.917127071823217" id="8DN-WU-zJI"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4C5-3P-Xbx">
+                    <rect key="frame" x="203.5" y="587" width="151.5" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.094117647060000004" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="BalooBhai-Regular" family="Baloo Bhai" pointSize="17"/>
+                    <state key="normal" title="NEXT">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="btnNext:" destination="-1" eventType="touchUpInside" id="gFj-f5-Waq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1c-V7-43D">
+                    <rect key="frame" x="20" y="587" width="151.5" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="kO4-Nz-CDg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BalooBhai-Regular" family="Baloo Bhai" pointSize="17"/>
+                    <state key="normal" title="Skip">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnSkip:" destination="-1" eventType="touchUpInside" id="NCn-54-Fto"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e13-8g-pSl">
+                    <rect key="frame" x="20" y="218.5" width="335" height="230"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3G-Pb-kZa">
+                            <rect key="frame" x="8" y="66" width="319" height="96.5"/>
+                            <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGA-8V-Wpp">
+                            <rect key="frame" x="79" y="8" width="177" height="50"/>
+                            <fontDescription key="fontDescription" name="BalooBhai-Regular" family="Baloo Bhai" pointSize="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="imN-Im-A7g">
+                            <rect key="frame" x="133" y="199.5" width="68" height="20"/>
+                            <subviews>
+                                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="iWl-gl-arX">
+                                    <rect key="frame" x="14" y="-9" width="39" height="37"/>
+                                    <connections>
+                                        <action selector="btnNext:" destination="-1" eventType="valueChanged" id="0gl-Nv-ZMj"/>
+                                    </connections>
+                                </pageControl>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="68" id="3bf-KC-zmb"/>
+                                <constraint firstAttribute="height" constant="20" id="JZd-lX-FlW"/>
+                                <constraint firstItem="iWl-gl-arX" firstAttribute="top" secondItem="imN-Im-A7g" secondAttribute="top" constant="-9" id="MEx-ll-OGZ"/>
+                                <constraint firstItem="iWl-gl-arX" firstAttribute="leading" secondItem="imN-Im-A7g" secondAttribute="leading" constant="14" id="bpD-m3-FbZ"/>
+                                <constraint firstAttribute="bottom" secondItem="iWl-gl-arX" secondAttribute="bottom" constant="-8" id="m6Y-lf-SqY"/>
+                                <constraint firstAttribute="trailing" secondItem="iWl-gl-arX" secondAttribute="trailing" constant="15" id="yLN-JE-sGu"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="imN-Im-A7g" secondAttribute="bottom" constant="10" id="B4R-RU-Y7H"/>
+                        <constraint firstItem="n3G-Pb-kZa" firstAttribute="top" secondItem="eGA-8V-Wpp" secondAttribute="bottom" constant="8" id="Odi-F7-Yfa"/>
+                        <constraint firstItem="n3G-Pb-kZa" firstAttribute="leading" secondItem="e13-8g-pSl" secondAttribute="leading" constant="8" id="PxV-mL-yZt"/>
+                        <constraint firstItem="n3G-Pb-kZa" firstAttribute="top" secondItem="eGA-8V-Wpp" secondAttribute="bottom" constant="8" id="QEa-th-UGf"/>
+                        <constraint firstAttribute="height" constant="230" id="QvZ-S7-AaX"/>
+                        <constraint firstAttribute="trailing" secondItem="n3G-Pb-kZa" secondAttribute="trailing" constant="8" id="VYx-Zu-bgW"/>
+                        <constraint firstItem="eGA-8V-Wpp" firstAttribute="top" secondItem="e13-8g-pSl" secondAttribute="top" constant="8" id="Y9G-LX-PLu"/>
+                        <constraint firstItem="imN-Im-A7g" firstAttribute="centerX" secondItem="e13-8g-pSl" secondAttribute="centerX" id="Z6Y-R3-phe"/>
+                        <constraint firstItem="n3G-Pb-kZa" firstAttribute="centerX" secondItem="e13-8g-pSl" secondAttribute="centerX" id="ZWS-qO-PEQ"/>
+                        <constraint firstItem="n3G-Pb-kZa" firstAttribute="centerX" secondItem="e13-8g-pSl" secondAttribute="centerX" id="luf-ql-fxa"/>
+                        <constraint firstItem="eGA-8V-Wpp" firstAttribute="centerX" secondItem="e13-8g-pSl" secondAttribute="centerX" id="w7Y-Un-Y6S"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vbl-zy-6l8" firstAttribute="leading" secondItem="a66-yu-J3E" secondAttribute="leading" id="1pp-zU-4B4"/>
+                <constraint firstItem="e13-8g-pSl" firstAttribute="centerY" secondItem="bNR-5e-4hQ" secondAttribute="centerY" id="EHK-fS-6Tr"/>
+                <constraint firstItem="vbl-zy-6l8" firstAttribute="top" secondItem="bNR-5e-4hQ" secondAttribute="top" id="H6b-bb-jcK"/>
+                <constraint firstItem="a66-yu-J3E" firstAttribute="bottom" secondItem="I1c-V7-43D" secondAttribute="bottom" constant="30" id="I4k-RB-4X0"/>
+                <constraint firstItem="4C5-3P-Xbx" firstAttribute="leading" secondItem="I1c-V7-43D" secondAttribute="trailing" constant="32" id="J9B-66-u5K"/>
+                <constraint firstItem="I1c-V7-43D" firstAttribute="leading" secondItem="a66-yu-J3E" secondAttribute="leading" constant="20" id="KaW-Ae-5mg"/>
+                <constraint firstItem="e13-8g-pSl" firstAttribute="top" secondItem="zRd-lo-8d6" secondAttribute="bottom" constant="46" id="NLh-2c-iDm"/>
+                <constraint firstItem="4C5-3P-Xbx" firstAttribute="leading" secondItem="I1c-V7-43D" secondAttribute="trailing" constant="32" id="SLQ-X0-F1t"/>
+                <constraint firstItem="zRd-lo-8d6" firstAttribute="centerX" secondItem="a66-yu-J3E" secondAttribute="centerX" id="T6B-w6-XAp"/>
+                <constraint firstItem="zRd-lo-8d6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="a66-yu-J3E" secondAttribute="top" constant="20" id="UFV-Ma-Jtj"/>
+                <constraint firstItem="vbl-zy-6l8" firstAttribute="trailing" secondItem="a66-yu-J3E" secondAttribute="trailing" id="aD0-ah-Ucm"/>
+                <constraint firstItem="a66-yu-J3E" firstAttribute="trailing" secondItem="4C5-3P-Xbx" secondAttribute="trailing" constant="20" id="dyh-M4-m8T"/>
+                <constraint firstItem="a66-yu-J3E" firstAttribute="bottom" secondItem="4C5-3P-Xbx" secondAttribute="bottom" constant="30" id="ftZ-Gj-4pO"/>
+                <constraint firstItem="vbl-zy-6l8" firstAttribute="bottom" secondItem="bNR-5e-4hQ" secondAttribute="bottom" id="gdg-04-SZd"/>
+                <constraint firstItem="e13-8g-pSl" firstAttribute="leading" secondItem="a66-yu-J3E" secondAttribute="leading" constant="20" id="heM-6A-ANB"/>
+                <constraint firstItem="e13-8g-pSl" firstAttribute="centerX" secondItem="bNR-5e-4hQ" secondAttribute="centerX" id="hqX-0b-tP1"/>
+                <constraint firstItem="4C5-3P-Xbx" firstAttribute="width" secondItem="I1c-V7-43D" secondAttribute="width" id="iyy-ib-Kqf"/>
+                <constraint firstItem="a66-yu-J3E" firstAttribute="trailing" secondItem="e13-8g-pSl" secondAttribute="trailing" constant="20" id="myu-r3-cVO"/>
+                <constraint firstItem="I1c-V7-43D" firstAttribute="height" secondItem="4C5-3P-Xbx" secondAttribute="height" id="q1u-7r-5bh"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="a66-yu-J3E"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+    <resources>
+        <image name="background1" width="1242" height="2209"/>
+        <image name="pump" width="167" height="159"/>
+    </resources>
+</document>

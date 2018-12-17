@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="VarelaRound-Regular.ttf">
+            <string>VarelaRound-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="pumpDetailsTblCellServices" id="KGk-i7-Jjw" customClass="pumpDetailsTblCellServices" customModule="Pump_Manage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="106.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UBy-pH-SNF">
+                        <rect key="frame" x="32" y="19" width="138" height="38"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wifi" translatesAutoresizingMaskIntoConstraints="NO" id="prx-UB-LjA">
+                                <rect key="frame" x="0.0" y="0.0" width="38" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="prx-UB-LjA" secondAttribute="height" multiplier="1:1" id="lKp-zN-WoT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wifi Zone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sF3-st-rFr">
+                                <rect key="frame" x="46" y="10.5" width="65" height="17"/>
+                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="prx-UB-LjA" firstAttribute="top" secondItem="UBy-pH-SNF" secondAttribute="top" id="Dlb-8o-cqS"/>
+                            <constraint firstItem="sF3-st-rFr" firstAttribute="centerY" secondItem="UBy-pH-SNF" secondAttribute="centerY" id="GOT-U4-bjS"/>
+                            <constraint firstItem="prx-UB-LjA" firstAttribute="leading" secondItem="UBy-pH-SNF" secondAttribute="leading" id="Jfc-6h-2yp"/>
+                            <constraint firstAttribute="bottom" secondItem="prx-UB-LjA" secondAttribute="bottom" id="SFJ-e0-32d"/>
+                            <constraint firstItem="sF3-st-rFr" firstAttribute="leading" secondItem="prx-UB-LjA" secondAttribute="trailing" constant="8" id="kXg-hm-R0G"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xm-Qw-ljC">
+                        <rect key="frame" x="182" y="19" width="138" height="38"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="bDN-sA-g30">
+                                <rect key="frame" x="8" y="0.0" width="38" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bDN-sA-g30" secondAttribute="height" multiplier="1:1" id="h7D-Q7-Rsr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Court" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QuY-ZG-VyK">
+                                <rect key="frame" x="54" y="11" width="75.5" height="17"/>
+                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="bDN-sA-g30" firstAttribute="top" secondItem="0Xm-Qw-ljC" secondAttribute="top" id="9Fn-XZ-DQX"/>
+                            <constraint firstAttribute="bottom" secondItem="bDN-sA-g30" secondAttribute="bottom" id="afP-h8-a6w"/>
+                            <constraint firstItem="bDN-sA-g30" firstAttribute="leading" secondItem="0Xm-Qw-ljC" secondAttribute="leading" constant="8" id="cJr-wU-G5Z"/>
+                            <constraint firstItem="QuY-ZG-VyK" firstAttribute="centerY" secondItem="0Xm-Qw-ljC" secondAttribute="centerY" id="tFc-gA-jQW"/>
+                            <constraint firstItem="QuY-ZG-VyK" firstAttribute="leading" secondItem="bDN-sA-g30" secondAttribute="trailing" constant="8" id="yhc-4E-68V"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="akd-ba-Ree">
+                        <rect key="frame" x="32" y="66" width="138" height="38"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call" translatesAutoresizingMaskIntoConstraints="NO" id="PtF-2I-HU5">
+                                <rect key="frame" x="0.0" y="0.0" width="38" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PtF-2I-HU5" secondAttribute="height" multiplier="1:1" id="SpX-VG-pLP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ay-o6-EdH">
+                                <rect key="frame" x="46" y="11" width="71" height="17"/>
+                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="3Ay-o6-EdH" firstAttribute="leading" secondItem="PtF-2I-HU5" secondAttribute="trailing" constant="8" id="D8a-VK-zGx"/>
+                            <constraint firstItem="PtF-2I-HU5" firstAttribute="top" secondItem="akd-ba-Ree" secondAttribute="top" id="K4c-Mn-wFz"/>
+                            <constraint firstItem="PtF-2I-HU5" firstAttribute="leading" secondItem="akd-ba-Ree" secondAttribute="leading" id="ZPI-Gi-Z7k"/>
+                            <constraint firstAttribute="bottom" secondItem="PtF-2I-HU5" secondAttribute="bottom" id="dac-pH-8Ht"/>
+                            <constraint firstItem="3Ay-o6-EdH" firstAttribute="centerY" secondItem="akd-ba-Ree" secondAttribute="centerY" id="uFV-mL-QI2"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uO5-AB-ImM">
+                        <rect key="frame" x="182" y="66" width="138" height="38"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atm" translatesAutoresizingMaskIntoConstraints="NO" id="psk-iY-7LM">
+                                <rect key="frame" x="8" y="0.0" width="38" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="psk-iY-7LM" secondAttribute="height" multiplier="1:1" id="o3q-h4-cpW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ATM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZh-AW-YSx">
+                                <rect key="frame" x="54" y="11" width="32" height="17"/>
+                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="SZh-AW-YSx" firstAttribute="leading" secondItem="psk-iY-7LM" secondAttribute="trailing" constant="8" id="3vo-BU-g6P"/>
+                            <constraint firstItem="SZh-AW-YSx" firstAttribute="centerY" secondItem="uO5-AB-ImM" secondAttribute="centerY" id="N6e-oF-mGn"/>
+                            <constraint firstAttribute="bottom" secondItem="psk-iY-7LM" secondAttribute="bottom" id="quh-5o-RmH"/>
+                            <constraint firstItem="psk-iY-7LM" firstAttribute="top" secondItem="uO5-AB-ImM" secondAttribute="top" id="uzq-dZ-oe9"/>
+                            <constraint firstItem="psk-iY-7LM" firstAttribute="leading" secondItem="uO5-AB-ImM" secondAttribute="leading" constant="8" id="vxO-3h-RQr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0Xm-Qw-ljC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="0Rx-tE-S6B"/>
+                    <constraint firstItem="UBy-pH-SNF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="17i-bG-Xbe"/>
+                    <constraint firstItem="uO5-AB-ImM" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="16" id="6SL-II-URR"/>
+                    <constraint firstItem="uO5-AB-ImM" firstAttribute="leading" secondItem="akd-ba-Ree" secondAttribute="trailing" constant="12" id="8pk-uQ-NWx"/>
+                    <constraint firstItem="akd-ba-Ree" firstAttribute="top" secondItem="UBy-pH-SNF" secondAttribute="bottom" constant="9" id="IXn-e2-3c2"/>
+                    <constraint firstItem="akd-ba-Ree" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="8" id="JTi-8t-X5B"/>
+                    <constraint firstItem="UBy-pH-SNF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="NXJ-eP-HGo"/>
+                    <constraint firstItem="akd-ba-Ree" firstAttribute="height" secondItem="UBy-pH-SNF" secondAttribute="height" id="R4c-Ns-cRg"/>
+                    <constraint firstItem="akd-ba-Ree" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="X46-Pe-pR6"/>
+                    <constraint firstItem="0Xm-Qw-ljC" firstAttribute="width" secondItem="UBy-pH-SNF" secondAttribute="width" id="aal-nc-R8h"/>
+                    <constraint firstItem="0Xm-Qw-ljC" firstAttribute="leading" secondItem="UBy-pH-SNF" secondAttribute="trailing" constant="12" id="eZu-1s-xYt"/>
+                    <constraint firstItem="uO5-AB-ImM" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="8" id="elp-ix-j48"/>
+                    <constraint firstItem="uO5-AB-ImM" firstAttribute="width" secondItem="UBy-pH-SNF" secondAttribute="width" id="gJ3-mh-9K1"/>
+                    <constraint firstItem="0Xm-Qw-ljC" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="16" id="hG0-vf-RHd"/>
+                    <constraint firstItem="akd-ba-Ree" firstAttribute="width" secondItem="UBy-pH-SNF" secondAttribute="width" id="iFx-BL-J3c"/>
+                    <constraint firstItem="uO5-AB-ImM" firstAttribute="height" secondItem="UBy-pH-SNF" secondAttribute="height" id="t1L-t8-Gjt"/>
+                    <constraint firstItem="0Xm-Qw-ljC" firstAttribute="height" secondItem="UBy-pH-SNF" secondAttribute="height" id="yI1-PL-5gY"/>
+                    <constraint firstItem="uO5-AB-ImM" firstAttribute="top" secondItem="0Xm-Qw-ljC" secondAttribute="bottom" constant="9" id="zuE-Eu-2p2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="33" y="79.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="atm" width="108" height="107"/>
+        <image name="call" width="94" height="94"/>
+        <image name="food" width="136" height="105"/>
+        <image name="wifi" width="117" height="86"/>
+    </resources>
+</document>

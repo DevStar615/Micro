@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="VarelaRound-Regular.ttf">
+            <string>VarelaRound-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="140" id="KGk-i7-Jjw" customClass="pumpRatingCell" customModule="Pump_Manage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V5J-kf-OBD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buY-rk-xby">
+                                <rect key="frame" x="12" y="8" width="235" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="WJO-TE-sSD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8d" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIR-Qj-Lm0">
+                                <rect key="frame" x="285" y="8" width="23" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="b1B-cM-HTC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="VarelaRound-Regular" family="Varela Round" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Q9-Ze-AVS">
+                                <rect key="frame" x="222" y="31" width="86" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="4oR-iu-OUi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugv-sI-j8K">
+                                <rect key="frame" x="12" y="60" width="296" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="fUh-T0-bjJ"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eWS-ok-ggh" customClass="RatingControl" customModule="Pump_Manage" customModuleProvider="target">
+                                <rect key="frame" x="12" y="31" width="125" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="igS-q8-9Ms"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="starSize">
+                                        <size key="value" width="25" height="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starCount">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.30204151459854017" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RIR-Qj-Lm0" firstAttribute="top" secondItem="V5J-kf-OBD" secondAttribute="top" constant="8" id="0h2-2t-Qlv"/>
+                            <constraint firstAttribute="trailing" secondItem="RIR-Qj-Lm0" secondAttribute="trailing" constant="12" id="6st-fq-loz"/>
+                            <constraint firstItem="Ugv-sI-j8K" firstAttribute="leading" secondItem="V5J-kf-OBD" secondAttribute="leading" constant="12" id="Cwk-Wf-qfs"/>
+                            <constraint firstItem="buY-rk-xby" firstAttribute="top" secondItem="V5J-kf-OBD" secondAttribute="top" constant="8" id="IVg-y6-Lc4"/>
+                            <constraint firstItem="buY-rk-xby" firstAttribute="leading" secondItem="V5J-kf-OBD" secondAttribute="leading" constant="12" id="J3B-5R-FLq"/>
+                            <constraint firstItem="Ugv-sI-j8K" firstAttribute="top" secondItem="eWS-ok-ggh" secondAttribute="bottom" constant="3" id="Rk7-yk-eI4"/>
+                            <constraint firstAttribute="trailing" secondItem="Ugv-sI-j8K" secondAttribute="trailing" constant="12" id="SYl-Go-X4o"/>
+                            <constraint firstAttribute="trailing" secondItem="8Q9-Ze-AVS" secondAttribute="trailing" constant="12" id="ThF-XS-9II"/>
+                            <constraint firstItem="eWS-ok-ggh" firstAttribute="top" secondItem="buY-rk-xby" secondAttribute="bottom" constant="1" id="eKs-mA-IBt"/>
+                            <constraint firstItem="8Q9-Ze-AVS" firstAttribute="top" secondItem="buY-rk-xby" secondAttribute="bottom" constant="1" id="erZ-Gr-sOg"/>
+                            <constraint firstAttribute="bottom" secondItem="Ugv-sI-j8K" secondAttribute="bottom" constant="8" id="kAy-dR-JsJ"/>
+                            <constraint firstItem="8Q9-Ze-AVS" firstAttribute="leading" secondItem="eWS-ok-ggh" secondAttribute="trailing" constant="85" id="oFJ-3k-jMy"/>
+                            <constraint firstItem="eWS-ok-ggh" firstAttribute="leading" secondItem="V5J-kf-OBD" secondAttribute="leading" constant="12" id="rPU-bs-GLV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="V5J-kf-OBD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bCd-2a-JbN"/>
+                    <constraint firstAttribute="bottom" secondItem="V5J-kf-OBD" secondAttribute="bottom" constant="9.5" id="kmQ-9Y-Pt1"/>
+                    <constraint firstAttribute="trailing" secondItem="V5J-kf-OBD" secondAttribute="trailing" id="wMc-CW-wuj"/>
+                    <constraint firstItem="V5J-kf-OBD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zKm-tt-ecA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ratingVw" destination="eWS-ok-ggh" id="wnR-Ll-3f4"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="90"/>
+        </tableViewCell>
+    </objects>
+</document>

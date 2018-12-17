@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Crashlytics (3.10.7):
+    - Fabric (~> 1.7.11)
+  - CTKFlagPhoneNumber (0.5.0):
+    - libPhoneNumber-iOS
+  - Fabric (1.7.11)
+  - InteractiveSideMenu (2.3)
+  - libPhoneNumber-iOS (0.9.13)
+  - ReachabilitySwift (4.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Crashlytics
+  - CTKFlagPhoneNumber
+  - Fabric
+  - InteractiveSideMenu
+  - ReachabilitySwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Crashlytics
+    - CTKFlagPhoneNumber
+    - Fabric
+    - InteractiveSideMenu
+    - libPhoneNumber-iOS
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Crashlytics: ccaac42660eb9351b9960c0d66106b0bcf99f4fa
+  CTKFlagPhoneNumber: 6c00bfb94d8517cefee96537a376470376a20321
+  Fabric: f233c9492b3bbc1f04e3882986740f7988a58edb
+  InteractiveSideMenu: d503a508c6d62a4d5d4372d9fb9e1795637a8e45
+  libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+
+PODFILE CHECKSUM: 67ff3d27641e96c9b028984397c9b463379ac62e
+
+COCOAPODS: 1.5.0

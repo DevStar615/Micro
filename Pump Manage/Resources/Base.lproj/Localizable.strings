@@ -1,0 +1,98 @@
+/* 
+  Localizable.strings
+  Pump Manage
+
+  Created by Mac2018_1 on 18/08/18.
+  
+*/
+
+//MARK:- Error message
+"Server Error, Please try again." = "Server Error, Please try again.";
+"Please Check Your Internet Connection" = "Please Check Your Internet Connection";
+
+//MARK: RegistrationVC
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Email Address" = "Email Address";
+"Password" = "Password";
+"Confirm Password" = "Confirm Password";
+"Submit" = "Submit";
+"Login" = "Login";
+"Next" = "Next";
+"Skip" = "Skip";
+"Street No" = "Street No";
+"Postal Code" = "Postal Code";
+"State" = "State";
+"Country" = "Country";
+"City" = "City";
+"CHARGE GASOLINE" = "CHARGE GASOLINE";
+"PROMOTION OF THE DAY" = "PROMOTION OF THE DAY";
+"Welcome To" = "Welcome To";
+"Please Enter First Name" = "Please Enter First Name";
+"Please Enter Last Name" = "Please Enter Last Name";
+"Please Enter Address" = "Please Enter Address";
+"Please Select Date Of Birth" = "Please Select Date Of Birth";
+"Please Check your Phone Number" = "Please Check your Phone Number";
+"Please Check your Email Id" = "Please Check your Email Id";
+"Please Enter Password" = "Please Enter Password";
+"Please Enter Street No" = "Please Enter Street No";
+"Please Enter Postal Code" = "Please Enter Postal Code";
+"Please Select City" = "Please Select City";
+"Please Select State" = "Please Select State";
+"Please Select Country" = "Please Select Country";
+"Please Enter Confirm Password" = "Please Enter Confirm Password";
+"Password and Confirm password do not match" = "Password and Confirm password do not match";
+"Please choose the delivery method for your OTP:" = "Please choose the delivery method for your OTP:";
+"SMS" = "SMS";
+"EMAIL" = "EMAIL";
+"Phone Number Must have 10 Digits." = "Phone Number Must have 10 Digits.";
+"All Fields are Mandatory" = "All Fields are Mandatory";
+
+
+"START" = "START";
+"SEASONS" = "SEASONS";
+"PROMOTIONS" = "PROMOTIONS";
+"MY ACCOUNT" = "MY ACCOUNT";
+"NEWS" = "NEWS";
+"CHARGE GASOLINE" = "CHARGE GASOLINE";
+
+"Litros" = "Litros";
+"Pesos" = "Pesos";
+
+//MARK: LoginVC
+"Login to contnue" = "Login to contnue";
+"Connecting With" = "Connecting With";
+"Don't have an account?" = "Don't have an account?";
+"SignUp" = "SignUp";
+"Please Enter login or phoneNumber" = "Please Enter login or phoneNumber";
+
+//MARK:- OtpVC
+"SMS CONFIRMATON CODE" = "SMS CONFIRMATON CODE";
+"EMAIL CONFIRMATION CODE" = "EMAIL CONFIRMATION CODE";
+"Didn't get the code?" = "Didn't get the code?";
+"Resend" = "Resend";
+"By signing up, you are agreeing out Terms of use" = "By signing up, you are agreeing out Terms of use";
+
+//MARK:CardDetailVC
+"Payment Method" = "Payment Method";
+"DEBIT/CREDIT CARDS" = "DEBIT/CREDIT CARDS";
+"LOYALTY CARDS" = "LOYALTY CARDS";
+"Confirm" = "Confirm";
+
+//MARK:PromotionVC
+"Promotions" = "Promotions";
+"Close to you" = "Close to you";
+"Of the day" = "Of the day";
+
+//MARK:ApplyForLoanVC
+"Credit Simulation" = "Credit Simulation";
+"Loan Amount" = "Loan Amount";
+"Loan Time" = "Loan Time";
+"LOAN" = "LOAN";
+"INTEREST" = "INTEREST";
+"TOTAL" = "TOTAL";
+"Apply for your loan now" = "Apply for your loan now";
+"DAYS" = "DAYS";
+"Simple Annual Fixed Rate" = "Simple Annual Fixed Rate";
+"Average CAT" = "Average CAT";
+"Without VAT" = "Without VAT";
